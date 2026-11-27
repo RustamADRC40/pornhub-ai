@@ -1,0 +1,9 @@
+[project]
+name = "phishing-url-detection"
+version = "0.1.0"
+description = "AI-based phishing website detection from URL features"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

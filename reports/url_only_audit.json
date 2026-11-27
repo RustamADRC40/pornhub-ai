@@ -1,0 +1,97 @@
+{
+  "features_used": [
+    "URLLength",
+    "DomainLength",
+    "IsDomainIP",
+    "TLDLength",
+    "NoOfSubDomain",
+    "NoOfLettersInURL",
+    "LetterRatioInURL",
+    "NoOfDegitsInURL",
+    "DegitRatioInURL",
+    "NoOfEqualsInURL",
+    "NoOfQMarkInURL",
+    "NoOfAmpersandInURL",
+    "NoOfOtherSpecialCharsInURL",
+    "SpacialCharRatioInURL",
+    "IsHTTPS"
+  ],
+  "test_instances": 47159,
+  "accuracy": 0.9967344515362921,
+  "precision_phishing": 0.9986063411477776,
+  "recall_phishing": 0.9937589776611025,
+  "f1_phishing": 0.9961767626613705,
+  "confusion_matrix": [
+    [
+      20063,
+      126
+    ],
+    [
+      28,
+      26942
+    ]
+  ],
+  "random_seed": 42,
+  "permutation_importance": {
+    "URLLength": {
+      "mean": 0.029951114515898623,
+      "std": 0.0006582277131149545
+    },
+    "DomainLength": {
+      "mean": 0.18431950749089993,
+      "std": 0.0007646790493500722
+    },
+    "IsDomainIP": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "TLDLength": {
+      "mean": 0.0005165686078139831,
+      "std": 7.86019221876843e-05
+    },
+    "NoOfSubDomain": {
+      "mean": 0.030850955304348348,
+      "std": 0.0007055075640176157
+    },
+    "NoOfLettersInURL": {
+      "mean": 0.06324607616128361,
+      "std": 0.0007838056242004748
+    },
+    "LetterRatioInURL": {
+      "mean": 0.13333551244265437,
+      "std": 0.0012200684877405523
+    },
+    "NoOfDegitsInURL": {
+      "mean": 0.0026390782186384463,
+      "std": 0.00013613414490562707
+    },
+    "DegitRatioInURL": {
+      "mean": 0.0013950447354120876,
+      "std": 0.00010141774067017178
+    },
+    "NoOfEqualsInURL": {
+      "mean": 1.8558577389637953e-06,
+      "std": 5.567573216891387e-06
+    },
+    "NoOfQMarkInURL": {
+      "mean": 1.0547759510259879e-08,
+      "std": 8.276089500494511e-06
+    },
+    "NoOfAmpersandInURL": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "NoOfOtherSpecialCharsInURL": {
+      "mean": 0.0891217148858461,
+      "std": 0.0013459611363251455
+    },
+    "SpacialCharRatioInURL": {
+      "mean": 0.029436206574724323,
+      "std": 0.0008045346434136353
+    },
+    "IsHTTPS": {
+      "mean": 0.2044748534254069,
+      "std": 0.001129311843712114
+    }
+  }
+}

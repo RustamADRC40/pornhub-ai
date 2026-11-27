@@ -1,0 +1,6 @@
+synthetic_variant,URLLength,DomainLength,IsDomainIP,TLDLength,NoOfSubDomain,NoOfLettersInURL,LetterRatioInURL,NoOfDegitsInURL,DegitRatioInURL,NoOfEqualsInURL,NoOfQMarkInURL,NoOfAmpersandInURL,NoOfOtherSpecialCharsInURL,SpacialCharRatioInURL,IsHTTPS
+base,23.0,16.0,0.0,2.0,1.0,9.0,0.391,0.0,0.0,0.0,0.0,0.0,2.0,0.087,1.0
+add_subdomain,36.0,29.0,0.0,2.0,4.0,9.0,0.391,0.0,0.0,0.0,0.0,0.0,2.0,0.087,1.0
+ip_host,31.0,16.0,1.0,2.0,1.0,9.0,0.391,0.0,0.0,0.0,0.0,0.0,2.0,0.087,1.0
+remove_https,23.0,16.0,0.0,2.0,1.0,9.0,0.391,0.0,0.0,0.0,0.0,0.0,2.0,0.087,0.0
+many_parameters,48.0,16.0,0.0,2.0,1.0,9.0,0.391,0.0,0.25,8.0,3.0,0.0,2.0,0.087,1.0

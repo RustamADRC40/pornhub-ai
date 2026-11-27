@@ -1,0 +1,82 @@
+{
+  "dataset": "PhiUSIIL Phishing URL (Website)",
+  "source": "https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+website",
+  "license": "CC BY 4.0",
+  "instances_after_deduplication": 235795,
+  "features_used": 50,
+  "train_instances": 188636,
+  "test_instances": 47159,
+  "class_counts": {
+    "0": 100945,
+    "1": 134850
+  },
+  "random_seed": 42,
+  "test_fraction": 0.2,
+  "label_meaning": {
+    "0": "phishing",
+    "1": "legitimate"
+  },
+  "raw_columns_removed": [
+    "FILENAME",
+    "URL",
+    "Domain",
+    "TLD",
+    "Title"
+  ],
+  "models": {
+    "logistic_regression": {
+      "accuracy": 0.9998727708390763,
+      "precision": 1.0,
+      "recall": 0.9997028084600525,
+      "f1": 0.9998513821460419,
+      "roc_auc": 0.9999999779613244,
+      "average_precision": 0.9999999835019949,
+      "confusion_matrix_labels_0_1": [
+        [
+          20183,
+          6
+        ],
+        [
+          0,
+          26970
+        ]
+      ]
+    },
+    "random_forest": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "confusion_matrix_labels_0_1": [
+        [
+          20189,
+          0
+        ],
+        [
+          0,
+          26970
+        ]
+      ]
+    },
+    "mlp": {
+      "accuracy": 0.9999363854195381,
+      "precision": 1.0,
+      "recall": 0.9998514042300263,
+      "f1": 0.9999256965944272,
+      "roc_auc": 0.9999999926537747,
+      "average_precision": 0.9999999945011238,
+      "confusion_matrix_labels_0_1": [
+        [
+          20186,
+          3
+        ],
+        [
+          0,
+          26970
+        ]
+      ]
+    }
+  }
+}
